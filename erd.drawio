@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T06:46:13.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="QPA9_sRKx8xSCkoVYs0x" version="21.6.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-07-28T06:55:29.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="IbPZLUKVJ6xSEmtT_l-3" version="21.6.5" type="github" pages="3">
   <diagram name="페이지-1" id="hIhTeIeGfCXAl0Gwc9g0">
     <mxGraphModel dx="674" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -475,7 +475,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="il3ymuTearNDNzlP0gMO" name="페이지-3">
-    <mxGraphModel dx="1501" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1416" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -728,7 +728,7 @@
         <mxCell id="C65jeYBnlbx2Vmq0hEm1-38" value="수강" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="208" y="860" width="124" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="C65jeYBnlbx2Vmq0hEm1-39" value="-수강신청일&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;-학번(FK,PK)&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;-과목코드(FK,PK)&lt;/font&gt;&lt;br&gt;(상속형PK)&lt;br&gt;- 수강신청번호(AK)&lt;br&gt;(대체키)&lt;br&gt;(M:N관계에서만작성)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="C65jeYBnlbx2Vmq0hEm1-38">
+        <mxCell id="C65jeYBnlbx2Vmq0hEm1-39" value="-수강신청일&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;-학번(FK,PK)&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;-과목코드(FK,PK)&lt;/font&gt;&lt;br&gt;(상속형PK)&lt;br&gt;- 수강신청번호(AK)&lt;br&gt;(대체키)&lt;br&gt;&lt;br&gt;(M:N관계에서만작성)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="C65jeYBnlbx2Vmq0hEm1-38">
           <mxGeometry y="50" width="124" height="130" as="geometry" />
         </mxCell>
         <mxCell id="7Lm6oBNDCckMecHTu0T0-2" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="C65jeYBnlbx2Vmq0hEm1-36" target="C65jeYBnlbx2Vmq0hEm1-39">
